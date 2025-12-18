@@ -1,37 +1,43 @@
-# 🛋️ Furniture AR App (Android)
+# Furniture AR App
 
-An Android Augmented Reality application that allows users to place, view, and interact with virtual furniture in real-world environments using AR technology.
+Furniture AR App is an Android application that helps users visualize furniture in their real environment using Augmented Reality. The app allows users to browse furniture online, place 3D models in their room, and measure real-world distances to check if items fit properly.
 
----
-
-## 📱 Features
-- Place 3D furniture models on real-world surfaces
-- Move, rotate, and scale furniture objects
-- Real-time surface detection
-- Smooth AR rendering experience
-- User-friendly UI for furniture selection
+This project was built as part of learning and experimenting with ARCore and Android development using Kotlin.
 
 ---
 
-## 🧰 Tech Stack
-- **Language:** Kotlin
-- **Platform:** Android
-- **Build System:** Gradle (Kotlin DSL)
-- **AR:** Google ARCore
-- **3D Models:** GLB / GLTF / OBJ
-- **IDE:** Android Studio
+## What this app can do
+
+- Browse furniture models from an online catalog  
+- Place 3D furniture on detected surfaces  
+- Move, rotate, and scale furniture objects  
+- Measure distances and spaces in real time  
+- Detect floors and flat surfaces using ARCore  
+- Run smoothly on ARCore-supported Android devices  
 
 ---
 
-## 📋 Requirements
-- Android Studio (latest stable version)
-- Android device that supports **ARCore**
-- Android SDK properly configured
-- Minimum Android version: Android 8.0 (API 26) *(or update if different)*
+## Technologies used
+
+- Android (Kotlin)
+- Google ARCore
+- Gradle (Kotlin DSL)
+- Android Studio
+- 3D models (GLB / GLTF / OBJ)
 
 ---
 
-## 🚀 Setup & Run
+## Requirements
+
+- Android Studio (latest version recommended)
+- Android SDK installed
+- A physical Android device that supports ARCore  
+  *(AR does not work on emulators)*
+
+---
+
+## How to run the project
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/A-D-H-I/FurnitureARApp.git
